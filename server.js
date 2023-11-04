@@ -13,6 +13,6 @@ app.use(routes);
 // Connect to the MongoDB database and start the server
 db.once("open", () => {
   app.listen(PORT, () => {
-    console.log(`API server running on port ${PORT}!`);
+    console.log(`API server running on port ${PORT}`);
   });
 });
